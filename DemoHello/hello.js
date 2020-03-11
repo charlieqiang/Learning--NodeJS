@@ -1,0 +1,5 @@
+const fs=require('fs')
+// let Module = require('./module')
+let dir=fs.readdirSync('./')
+// Module.sayHello()
+console.log(dir)
